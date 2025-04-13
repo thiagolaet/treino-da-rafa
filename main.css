@@ -278,9 +278,9 @@ section {
 }
 
 .price__main_text {
-  font-size: 56px;
-  margin-top: 40px;
-  margin-bottom: 50px;
+  font-size: 82px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .price__button:hover {
@@ -317,6 +317,10 @@ section {
   .button {
     font-size: 30px;
     padding: 10px 20px;
+  }
+
+  .price__main_text {
+    font-size: 60px;
   }
 }
 
