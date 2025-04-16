@@ -112,7 +112,7 @@ section {
 .hero {
   display: flex;
   height: 100vh;
-  background: url('img/bg.png') no-repeat center center/cover;
+  background: url('img/hero_bg.png') no-repeat center center/cover;
   position: relative;
   min-height: 1000px;
 }
@@ -291,8 +291,44 @@ section {
   color: white;
 }
 
+.personal {
+  background: url('img/bg.png') no-repeat center center/cover;
+}
+
+.personal__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.personal__image {
+  width: 500px;
+}
+
 .collapse-icon {
   margin-right: 6px;
+}
+
+.personal__name {
+  font-size: 30px;
+}
+
+.personal__cref {
+  color: var(--color-primary);
+}
+
+.personal__instagram {
+  font-size: 20px;
+  font-weight: normal;
+  font-family: var(--font-body);
+  text-transform: lowercase;
+  color: white;
+}
+
+.personal__content__info {
+  margin-top: 40px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -302,10 +338,26 @@ section {
   }
 
   .hero {
-    background: url('img/bg.png') no-repeat 70% center/cover;
+    background: url('img/hero_bg.png') no-repeat 70% center/cover;
   }
 }
 
+
+@media screen and (max-width: 1020px) {
+  .personal__content {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .personal__image {
+    width: 100%;
+    object-fit: cover;
+    object-position: 20%;
+    height: auto;
+  }
+
+}
 
 @media screen and (max-width: 768px) {
   .hero__content {
@@ -315,7 +367,6 @@ section {
     font-size: 3rem;
   }
   .button {
-    font-size: 30px;
     padding: 10px 20px;
   }
 
@@ -335,5 +386,6 @@ section {
 
   .responsive-break-line {
     display: block;
+    text-align: start;
   }
 }
