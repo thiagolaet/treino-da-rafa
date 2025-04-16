@@ -114,6 +114,7 @@ section {
   height: 100vh;
   background: url('img/hero_bg.png') no-repeat center center/cover;
   position: relative;
+  min-height: 520px;
 }
 
 .hero__content {
@@ -161,6 +162,7 @@ section {
 
 .hero__logo {
   max-width: 220px;
+  margin-top: 50px;
 }
 
 .problem__title {
@@ -385,5 +387,11 @@ section {
   .responsive-break-line {
     display: block;
     text-align: start;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .hero__content__main {
+    margin-top: 0px;
   }
 }
