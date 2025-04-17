@@ -112,7 +112,7 @@ section {
 .hero {
   display: flex;
   height: 100vh;
-  background: url('img/hero_bg.png') no-repeat center center/cover;
+  background: url('img/hero_bg.webp') no-repeat center center/cover;
   position: relative;
   min-height: 520px;
 }
@@ -295,7 +295,7 @@ section {
 }
 
 .personal {
-  background: url('img/bg.png') no-repeat center center/cover;
+  background: url('img/bg.webp') no-repeat center center/cover;
 }
 
 .personal__content {
@@ -333,7 +333,7 @@ section {
   }
 
   .hero {
-    background: url('img/hero_bg.png') no-repeat 70% center/cover;
+    background: url('img/hero_bg.webp') no-repeat 70% center/cover;
   }
 }
 
