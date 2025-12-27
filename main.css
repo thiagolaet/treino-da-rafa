@@ -432,6 +432,17 @@ section {
   }
 }
 
+@media screen and (max-width: 300px) {
+  .hero {
+    height: auto;
+    padding: 15px 0;
+  }
+
+  .hero__logo {
+    width: 100%;
+  }
+}
+
 @media screen and (max-height: 700px) {
   .hero__content__main {
     margin-top: 0px;
